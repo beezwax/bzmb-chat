@@ -16,7 +16,7 @@ const chat = async (key, prompt, length, temperature, model = "gpt-3.5-turbo") =
     max_tokens: length
   });
 
-  return response.data.choices[0].message.content;
+  return response.data.choices[0].message.content.trim();
 };
 
 module.exports = chat;

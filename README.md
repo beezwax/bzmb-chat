@@ -2,7 +2,7 @@
 
 A [bzBond-server](https://github.com/beezwax/bzBond/tree/main/packages/bzBond-server#bzbond-server) microbond to integrate with the ChatGTP API.
 
-# Installation
+## Installation
 
 On a server with bzBond-server installed run the following command:
 
@@ -10,7 +10,7 @@ On a server with bzBond-server installed run the following command:
 
 See the [bzBond-server documentation](https://github.com/beezwax/bzBond/tree/main/packages/bzBond-server#installing-plugins) for more details on installation.
 
-# Usage
+## Usage
 
 In a server-side FileMaker script run `bzBondRelay` script with parameters in the following format:
 

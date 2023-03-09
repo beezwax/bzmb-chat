@@ -11,8 +11,12 @@ On a server with bzBond-server installed run the following command:
 See the [bzBond-server documentation](https://github.com/beezwax/bzBond/tree/main/packages/bzBond-server#installing-plugins) for more details on installation.
 
 # Usage
+
+In a server-side FileMaker script run `bzBondRelay` script with parameters in the following format:
+
 ```
 {
+  "mode": "PERFORM_JAVASCRIPT",
   "route": "bzmb-chat",
   "customMethod": "POST",
   "customBody": {
@@ -41,5 +45,6 @@ See the [bzBond-server documentation](https://github.com/beezwax/bzBond/tree/mai
 
 ```
 
-## 
+The text response from ChatGPT can be accessed via `Get ( ScriptResult )`:
+`JSONGetElement ( Get ( ScriptResult ); "response.result" )`
 

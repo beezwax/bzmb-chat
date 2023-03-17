@@ -29,4 +29,4 @@ async function bzmbChat(fastify, options) {
   });
 }
 
-module.exports = { plugin: bzmbChat };
+module.exports = { microbond: bzmbChat };

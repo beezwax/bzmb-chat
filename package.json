@@ -1,7 +1,7 @@
 {
   "name": "bzmb-chat",
   "version": "1.0.0",
-  "description": "ChatGPT integration",
+  "description": "A bzBond Microbond to integrate with the ChatGPT API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

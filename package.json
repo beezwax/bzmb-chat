@@ -9,6 +9,6 @@
   "author": "Beezwax",
   "license": "ISC",
   "dependencies": {
-    "openai": "^3.2.1"
+    "openai": "^4.17.4"
   }
 }
